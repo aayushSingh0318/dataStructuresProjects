@@ -1,14 +1,7 @@
 #  File: Hiking.py
 
-#  Description: Help Jeff determine if he can finish the Appalachian Trail hike
+#  Description: Help Me determine if he can finish the hike with the tools he has on hand. 
 
-#  Student Name: 
-
-#  Student UT EID:
-
-#  Course Name: CS 313E
-
-#  Unique Number:
 
 import sys
 
@@ -31,8 +24,6 @@ def hike(hike_string: str, capacity: int) -> bool:
     
     
     
-
-# You do not need to modify anything below this line
 def main():
     first_line = sys.stdin.readline().split()
     N, W = int(first_line[0]), int(first_line[1])
