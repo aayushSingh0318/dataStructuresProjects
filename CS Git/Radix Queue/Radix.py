@@ -1,22 +1,3 @@
-#  File: Radix.py
-
-#  Description:
-
-#  Student Name: Aayush Singh
-
-#  Student UT EID: as92488
-
-#  Partner Name: Danny Xie 
-
-#  Partner UT EID: dax56
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51120
-
-#  Date Created: 3/28/2022
-
-#  Date Last Modified: 3/28/2022
 
 from pdb import line_prefix
 import queue
