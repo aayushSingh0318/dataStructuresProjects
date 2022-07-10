@@ -2,13 +2,6 @@
 
 # Description: Determine if a river can flow off the map given starting point.
 
-# Student Name: Aayush Singh
-
-# Student EID: as92488
-
-# Course Name: CS 313E
-
-# Unique Number: 51120
 
 import sys
 
