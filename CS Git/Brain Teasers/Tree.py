@@ -1,11 +1,8 @@
 
 
-# File: Sugar.py
-# Description: Help Alex identify if a graph is a tree.
-# Student Name:Aayush  Singh
-# Student EID:as92488
-# Course Name: CS 313E
-# Unique Number: 51120
+
+# Description: Identify if a graph is a tree.
+
 import sys
 # Feel free to define any helper functions, if necessary!
 # Input: n - total number of vertices in graph, edges - set of all edge connections between vertices
