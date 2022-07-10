@@ -1,22 +1,4 @@
-#  File: OfficeSpace.py
 
-#  Description: We satisified the required methods.
-
-#  Student Name:Aayush Singh
-
-#  Student UT EID:as92488
-
-#  Partner Name:Danny Xie
-
-#  Partner UT EID:dax56
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51120
-
-#  Date Created: 2/11/2022
-
-#  Date Last Modified: 2/11/2022
 
 # Input: a rectangle which is a tuple of 4 integers (x1, y1, x2, y2)
 # Output: an integer giving the area of the rectangle
