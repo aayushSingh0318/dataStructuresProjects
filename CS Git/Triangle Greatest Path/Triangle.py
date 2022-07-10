@@ -3,22 +3,6 @@
 
 #  Description: Using Recursion and different methods of solving, we are able to traverse through a triaangle (2D list) and find the path with the greaates sum of values. 
 
-#  Student Name: Aayush Singh
-
-#  Student UT EID: as92488
-
-#  Partner Name: Danny Xie
-
-#  Partner UT EID: dax56
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51120
-
-#  Date Created: 3/4/2022
-
-#  Date Last Modified: 3/4/2022
-
 
 import sys
 
