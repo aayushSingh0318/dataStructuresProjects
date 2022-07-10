@@ -1,0 +1,184 @@
+#  File: BST_Cipher.py
+
+#  Description: This is a BST cipher
+
+#  Student Name: Aayush Singh
+
+#  Student UT EID: as92488
+
+#  Partner Name: Danny Xie
+
+#  Partner UT EID: dax56
+
+#  Course Name: CS 313E
+
+#  Unique Number: 51220
+
+#  Date Created: 4/18/22
+
+#  Date Last Modified: 4/18/2022
+
+import sys
+
+class Node (object):
+    def __init__ (self, data):
+      self.data = data
+      self.lChild = None
+      self.rChild = None
+
+
+class Tree (object):
+  # the init() function creates the binary search tree with the
+  # encryption string. If the encryption string contains any
+  # character other than the characters 'a' through 'z' or the
+  # space character drop that character.
+  def __init__ (self, encrypt_str):
+      self.root = None
+      for char in encrypt_str:
+          self.insert(char)
+
+  # the insert() function adds a node containing a character in
+  # the binary search tree. If the character already exists, it
+  # does not add that character. There are no duplicate characters
+  # in the binary search tree.
+  def insert (self, ch):
+      new_node = Node(ch)
+      current  = self.root
+      first = self.root
+
+      if self.root is not None:
+          pass
+      else:
+          self.root = new_node
+          return None
+
+      while not current is None:
+          first = current
+          if ch > current.data:
+              current = current.rChild
+          else:
+              current = current.lChild
+
+      if ch > first.data:
+          first.rChild = new_node
+      else:
+          first.lChild = new_node
+
+  # the search() function will search for a character in the binary
+  # search tree and return a string containing a series of lefts
+  # (<) and rights (>) needed to reach that character. It will
+  # return a blank string if the character does not exist in the tree.
+  # It will return * if the character is the root of the tree.
+  def search (self, ch):
+      current =self.root
+      empty = ''
+      
+      if ch != self.root.data:
+            pass
+      else:
+            return '*'
+
+      while (current.data != ch) and (current is not None): 
+          if ch > current.data:
+              empty = empty + '>'
+              current = current.rChild
+          else:
+              empty = empty + '<'
+              current = current.lChild
+
+      if current is not None:
+          pass
+      else:
+          return ''
+
+      return empty
+
+
+  # the traverse() function will take string composed of a series of
+  # lefts (<) and rights (>) and return the corresponding 
+  # character in the binary search tree. It will return an empty string
+  # if the input parameter does not lead to a valid character in the tree.
+  def traverse (self, st):
+      current = self.root
+      if st != "*":
+        pass
+      else:
+        return self.root.data
+
+      for pos in st:
+        if current is not None:
+          if pos == "<":
+            current = current.lChild
+          elif pos == ">":
+            current = current.rChild
+          else:
+            return ''
+
+        return current.data
+
+
+  # the encrypt() function will take a string as input parameter, convert
+  # it to lower case, and return the encrypted string. It will ignore
+  # all digits, punctuation marks, and special characters.
+  def encrypt (self, st):
+      
+      st = st.lower()
+      empty = ''
+
+      for pos in st:
+          if pos.isalpha():
+            empty = empty + pos
+          elif pos == " ":
+            empty = empty + pos
+
+      encrytpted = ""
+
+      for pos in empty:
+        current_encrypted = self.search(pos)
+        encrytpted += encrytpted + current_encrypted + "!"
+
+      final = encrytpted[0:-1]
+      return final
+
+  # the decrypt() function will take a string as input parameter, and
+  # return the decrypted string.
+  def decrypt (self, st):
+    empty =  ""
+    params = ['>','<','!',"*"]
+    for pos in st:
+      if pos in params:
+          empty = empty + item
+
+    lists = empty.split('!')
+
+    decrypted = ""
+
+    for pos in lists:
+            decrypted = decrypted + self.traverse(pos)
+
+    return decrypted
+
+def main():
+  # read encrypt string
+  line = sys.stdin.readline()
+  encrypt_str = line.strip()
+
+  # create a Tree object
+  the_tree = Tree (encrypt_str)
+
+  # read string to be encrypted
+  line = sys.stdin.readline()
+  str_to_encode = line.strip()
+
+  # print the encryption
+  print (the_tree.encrypt(str_to_encode))
+
+  # read the string to be decrypted
+  line = sys.stdin.readline()
+  str_to_decode = line.strip()
+  
+  # print the decryption
+  print (the_tree.decrypt(str_to_decode))
+ 
+if __name__ == "__main__"
+  main()
