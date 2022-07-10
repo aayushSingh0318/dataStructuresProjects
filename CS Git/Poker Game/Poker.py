@@ -2,21 +2,6 @@
 
 #  Description: Program simulates a 5-Card Draw (Poker) game.
 
-#  Student's Name: Danny Xie
-
-#  Student's UT EID: dax56
-
-#  Partner's Name: Aayush Singh
-
-#  Partner's UT EID: 
-
-#  Course Name: CS 313E 
-
-#  Unique Number: 51120 
-
-#  Date Created: 2/14/22
-
-#  Date Last Modified: 2/14/22
 
 import random
 from re import L
@@ -31,7 +16,7 @@ class Card (object):
     def __init__ (self, rank = 12, suit = 'S'):
         if (rank in Card.RANKS):
             self.rank = rank
-        else:                           #if it doesnt match we give default 
+        else:       #if it doesnt match we give default 
             self.rank = 12
 
         if (suit in Card.SUITS):
