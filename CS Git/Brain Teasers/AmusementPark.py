@@ -47,12 +47,7 @@ class LinkedList (object):
         return current
 
 
-# **DO NOT MODIFY ANYTHING ABOVE THIS LINE.**
-# Return a linked list with the heights of the children after arranging them
-#   based on whether or not they meet the roller coaster height requirement, h.
-# You must use the Link and LinkedList classes to complete this question.
-# You are **NOT ALLOWED** to use built-in data structures such as lists, sets, dicts,
-#   or tuples to store the heights.
+
 def arrangeChildren(heights: LinkedList, h: int) -> LinkedList:
     children_above_h = LinkedList()
 
