@@ -1,22 +1,9 @@
 #File: Intervals.py
 
-#  Description: In this we read intervals.in and append all the tuples to a tuple list. From there we merge any tuples that have intersecting ranges. Finally we sort this updated list by the the difference between the first and second values of the tuples. Finally print both lists. 
+#  Description: In this we read intervals.in and append all the tuples to a tuple list. From there we merge any tuples that have intersecting ranges. 
+#               Finally we sort this updated list by the the difference between the first and second values of the tuples. Finally print both lists. 
 
-#  Student Name: Aayush Singh 
 
-#  Student UT EID: as92488 
-
-#  Partner Name: Danny Xie
-
-#  Partner UT EID: dax56
-
-#  Course Name: CS 313E 
-
-#  Unique Number: 51120
-
-#  Date Created: 1/29/2022
-
-#  Date Last Modified: 1/31/2022
 import sys 
 def read_input():
     num_of_intervals = int(input())
