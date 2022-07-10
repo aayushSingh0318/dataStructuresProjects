@@ -38,7 +38,6 @@ def available(alice, bob):
     return workingWindows
             
     
-# DO NOT MODIFY ANYTHING BELOW THIS LINE
 def main():
     a_lines = int(sys.stdin.readline())
     alice = []
