@@ -2,21 +2,6 @@
 
 #  Description: Using classes, and point objects we are able to conduct geometric experiments. 
 
-#  Student Name: Aayush Singh
-
-#  Student UT EID: as92488
-
-#  Partner Name: Danny Xie 
-
-#  Partner UT EID: dax56
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51120
-
-#  Date Created: 2/6/2022
-
-#  Date Last Modified: 2/7/2022
 
 import math
 import sys
