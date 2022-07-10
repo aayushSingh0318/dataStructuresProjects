@@ -2,13 +2,6 @@
 
 #  Description: Determine if you are able to escape the maze unscathed.
 
-#  Student Name:
-
-#  Student UT EID:
-
-#  Course Name: CS 313E
-
-#  Unique Number:
 
 import sys
 from typing import List
@@ -47,8 +40,6 @@ def escape_the_maze(
         pass
     
 
-
-# DO NOT CHANGE ANYTHING BELOW THIS LINE.
 
 def main():
     """ Main harness for reading in input from STDIN. """
