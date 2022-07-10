@@ -1,22 +1,4 @@
-#  File: BST_Cipher.py
-
-#  Description: This is a BST cipher
-
-#  Student Name: Aayush Singh
-
-#  Student UT EID: as92488
-
-#  Partner Name: Danny Xie
-
-#  Partner UT EID: dax56
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51220
-
-#  Date Created: 4/18/22
-
-#  Date Last Modified: 4/18/2022
+#This is Binary Search Tree Cipher
 
 import sys
 
