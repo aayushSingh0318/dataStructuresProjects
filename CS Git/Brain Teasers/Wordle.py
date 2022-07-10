@@ -1,10 +1,6 @@
-#  File: Wordle.py
-#  Description: Given a dictionary and previous guesses, filter 
-# out the possible words.
-#  Student Name:
-#  Student UT EID:
-#  Course Name: CS 313E
-#  Unique Number:
+
+#  Description: Given a dictionary Wordle solver
+
 import sys
 from typing import List, Tuple
 
