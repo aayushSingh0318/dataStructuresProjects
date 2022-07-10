@@ -3,25 +3,6 @@
 #  Description: This code inputs the word_grid text file and splits it into a word grid and a word list. 
 # It then iterates through the word list and the word grid and returns the coordinates where the word is found. 
 
-#  Student Name: Eesha Patel
-
-#  Student UT EID: ep26454
-
-#  Partner Name: Aayush Singh
-
-#  Partner UT EID: as92488
-
-#  Course Name: CS 313E 
-
-#  Unique Number: 51120
-
-#  Date Created: 1/21/22
-
-#  Date Last Modified: 1/27/22
-
-
-#need to separate the word search grid from the words
-#need to figure out how to go through and identify the lines 
 
 import sys
 
