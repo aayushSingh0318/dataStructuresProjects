@@ -1,9 +1,6 @@
 #  File: LargestCluster.py
 #  Description: Determine the largest cluster found in each journey through space.
-#  Student Name:
-#  Student UT EID:
-#  Course Name: CS 313E
-#  Unique Number:
+
 import sys
 # Input: s is a string representing your journey through the galaxy
 # Output: return an integer representing the largest cluster encountered
