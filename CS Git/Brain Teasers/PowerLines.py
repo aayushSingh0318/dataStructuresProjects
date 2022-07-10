@@ -2,14 +2,6 @@
 
 #  Description: Determines how many power lines must be built to connect everyone to power
 
-#  Student Name:
-
-#  Student UT EID:
-
-#  Course Name: CS 313E
-
-#  Unique Number:
-
 
 class Vertex(object):
     def __init__(self, label):
@@ -68,7 +60,6 @@ def needed_lines(houses: Graph) -> int:
     pass
 
 
-# DO NOT MODIFY THIS METHOD
 def main():
     houses = Graph()
     num, n = map(int, input().split())
