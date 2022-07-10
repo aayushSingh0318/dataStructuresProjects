@@ -1,22 +1,6 @@
-#  File: TestCipher.py
 
-#  Description: We decode and encode different cyphers. 
+#  Description: Decode and encode different cyphers. 
 
-#  Student's Name: Aayush Singh
-
-#  Student's UT EID: as92488
- 
-#  Partner's Name: Danny Xie 
-
-#  Partner's UT EID: dax56
-
-#  Course Name: CS 313E 
-
-#  Unique Number: 51120
-
-#  Date Created: 2/2/2022
-
-#  Date Last Modified: 2/4/2022
 
 from operator import index
 from re import T
