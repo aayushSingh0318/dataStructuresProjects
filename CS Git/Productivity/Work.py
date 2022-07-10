@@ -1,18 +1,9 @@
 #  File: Work.py 
 
-#  Description:  Helper function num_lines allows for productivity to still be more than 1 line per coffee. Using this function, I conducted binary and linear seach and saaw the different times produced with the constant k.
+#  Description:  Helper function num_lines allows for productivity to still be more than 1 line per coffee. 
+#  Using this function, I conducted binary and linear seach and saaw the different times produced with the constant k.
 
-#  Student Name: Aayush Singh
 
-#  Student UT EID: as92488
-
-#  Course Name: CS 313E
-
-#  Unique Number: 51120
-
-#  Date Created: 2/21/2022
-
-#  Date Last Modified: 2/21/2022
 
 import sys, time, math
 def num_lines(v, k): #helper to count num of lines written
@@ -81,7 +72,5 @@ def main():
         print()
         print()
 
-# The line above main is for grading purposes only.
-# DO NOT REMOVE THE LINE ABOVE MAIN
 if __name__ == "__main__":
   main()
