@@ -1,3 +1,5 @@
+#quadratic function calculator
+
 import math
 from re import X
 class QuadraticFunction (object):
