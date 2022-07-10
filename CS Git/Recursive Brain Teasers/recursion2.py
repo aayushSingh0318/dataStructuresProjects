@@ -1,22 +1,4 @@
-#  File: recursion2.py 
 
-#  Description: recursion 8 funcs 
-
-#  Student Name: Danny XIe
-
-#  Student UT EID: dax56
-
-#  Partner's Name:Aayush Singh
-
-#  Partner's UT EID:as92488
-
-#  Course Name: CS 313E
-
-#  Unique Number: 
-
-#  Date Created:
-
-#  Date Last Modified:
 
 
 # Given an array of ints, is it possible to choose a group of some 
